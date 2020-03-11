@@ -1,5 +1,21 @@
 \ProvidesFile{lithuanian.lbx}
-[\abx@lbxid $Id: lithuanian.lbx,v 2.0 2020/03/09 20:21:28 maras stable $]
+[\abx@lbxid]
+
+\DeclareRedundantLanguages{lithuanian}{lithuanian}
+
+\NewBibliographyString{%
+  locjanuary,
+  locfebruary,
+  locmarch,
+  locapril,
+  locmay,
+  locjune,
+  locjuly,
+  locaugust,
+  locseptember,
+  lococtober,
+  locnovember,
+  locdecember}
 
 \DeclareBibliographyStrings{%
   bibliography     = {{Bibliografija}{Bibliografija}},
@@ -23,10 +39,10 @@
   translators      = {{vertėjai}{vert\adddot}},
   commentator      = {{komentarų autorius}{koment\adddotspace aut\adddot}},
   commentators     = {{komentarų autoriai}{koment\adddotspace aut\adddodt}},
-  annotator        = {{anotacijų autorius}{anot\adddotspace aut\adddot}},
-  annotators       = {{anotacijų autoriai}{anot\adddotspace aut\adddot}},
+  annotator        = {{paaiškinimų autorius}{paaišk\adddotspace aut\adddot}},
+  annotators       = {{paaiškinimų autoriai}{paaišk\adddotspace aut\adddot}},
   commentary       = {{komentarai}{koment\adddot}},
-  annotations      = {{anotacijos}{anot\adddot}},
+  annotations      = {{paaiškinimai}{paaišk\adddot}},
   introduction     = {{įvadas}{įv\adddot}},
   foreword         = {{pratarmė}{prat\adddot}},
   afterword        = {{pabaigos žodis}{pab\adddotspace žodis}},
@@ -38,10 +54,10 @@
                       {sud\adddotspace ir koment\adddotspace aut\adddot}},
   editorsco        = {{sudarytojai ir komemntarų autoriai}%
                       {sud\adddotspace ir koment\adddotspace aut\adddot}},
-  editoran         = {{sudarytojas ir anotacijų autorius}%
-                      {sud\adddotspace ir anot\adddotspace aut\adddot}},
-  editorsan        = {{sudarytojai ir anotacjų autoriai}%
-                      {sud\adddotspace ir anot\adddotspace aut\adddot}},
+  editoran         = {{sudarytojas ir paaiškinimų autorius}%
+                      {sud\adddotspace ir paaišk\adddotspace aut\adddot}},
+  editorsan        = {{sudarytojai ir paaiškinimų autoriai}%
+                      {sud\adddotspace ir paaišk\adddotspace aut\adddot}},
   editorin         = {{sudarytojas ir įvado autorius}%
                       {sud\adddotspace ir įv\adddotspace aut\adddot}},
   editorsin        = {{sudarytojai ir įvado autoriai}%
@@ -58,10 +74,10 @@
                       {sud\adddot\addcommaspace vert\adddotspace ir koment\adddotspace aut\adddot}},
   editorstrco      = {{redaktoriai, vertėjai ir komentatoriai}%
                       {sud\adddot\addcommaspace vert\adddotspace ir koment\adddotspace aut\adddot}},
-  editortran       = {{sudarytojas, vertėjas ir anotacijų autorius}%
-                      {sud\adddot\addcommaspace vert\adddotspace ir anot\adddotspace aut\adddot}},
-  editorstran      = {{sudarytojai, vertėjai ir anotacijų autoriai}%
-                      {sud\adddot\addcommaspace vert\adddotspace ir anot\adddotspace aut\adddot}},
+  editortran       = {{sudarytojas, vertėjas ir paaiškinimų autorius}%
+                      {sud\adddot\addcommaspace vert\adddotspace ir paaišk\adddotspace aut\adddot}},
+  editorstran      = {{sudarytojai, vertėjai ir paaiškinimų autoriai}%
+                      {sud\adddot\addcommaspace vert\adddotspace ir paaišk\adddotspace aut\adddot}},
   editortrin       = {{sudarytojas, vertėjas ir įvado autorius}%
                       {sud\adddot\addcommaspace vert\adddotspace ir įv\adddotspace aut\adddot}},
   editorstrin      = {{sudarytojai, vertėjai ir įvado autoriai}%
@@ -86,18 +102,18 @@
                       {sud\adddot\addcommaspace koment\adddotspace ir pab\adddotspace žodžio aut\adddot}},
   editorscoaf      = {{sudarytojai, komentarų ir pabaigos žodžio autoriai}%
                       {sud\adddot\addcommaspace koment\adddotspace ir pab\adddotspace žodžio aut\adddot}},
-  editoranin       = {{sudarytojas, anotacijų ir įvado autorius}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir įv\adddotspace aut\adddot}},
-  editorsanin      = {{sudarytojai, anotacijų ir įvado autoriai}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir įv\adddotspace aut\adddot}},
-  editoranfo       = {{sudarytojas, anotacijų ir pratarmės autorius}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir prat\adddotspace aut\adddot}},
-  editorsanfo      = {{sudarytojai, anotacijų ir pratarmės autoriai}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir prat\adddotspace aut\adddot}},
-  editoranaf       = {{sudarytojas, anotacijų ir pabaigos žodžio autorius}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir pab\adddotspace žodžio aut\adddot}},
-  editorsanaf      = {{sudarytojai, anotacijų ir pabaigos žodžio autoriai}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir pab\adddotspace žodžio aut\adddot}},
+  editoranin       = {{sudarytojas, paaiškinimų ir įvado autorius}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir įv\adddotspace aut\adddot}},
+  editorsanin      = {{sudarytojai, paaiškinimų ir įvado autoriai}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir įv\adddotspace aut\adddot}},
+  editoranfo       = {{sudarytojas, paaiškinimų ir pratarmės autorius}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir prat\adddotspace aut\adddot}},
+  editorsanfo      = {{sudarytojai, paaiškinimų ir pratarmės autoriai}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir prat\adddotspace aut\adddot}},
+  editoranaf       = {{sudarytojas, paaiškinimų ir pabaigos žodžio autorius}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir pab\adddotspace žodžio aut\adddot}},
+  editorsanaf      = {{sudarytojai, paaiškinimų ir pabaigos žodžio autoriai}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir pab\adddotspace žodžio aut\adddot}},
   editortrcoin     = {{sudarytojas, vertėjas, komentarų ir įvado autorius}%
                       {sud\adddot\addcommaspace vert\adddot\addcommaspace koment\adddot ir įv\adddotspace aut\adddot}},
   editorstrcoin    = {{sudarytojai, vertėjai, komentarų ir įvado autoriai}%
@@ -110,26 +126,26 @@
                       {sud\adddot\addcommaspace vert\adddot\addcommaspace koment\adddot ir pab\adddotspace žodžio aut\adddot}},
   editorstrcoaf    = {{sudarytojai, vertėjai, komentarų ir pabaigos žodžio autoriai}%
                       {sud\adddot\addcommaspace vert\adddot\addcommaspace koment\adddot ir pab\adddotspace žodžio aut\adddot}},
-  editortranin     = {{sudarytojas, vertėjas, anotacijų ir įvado autorius}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir įv\adddotspace aut\adddot}},
-  editorstranin    = {{sudarytojai, vertėjai, anotacijų ir įvado autorius}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir įv\adddotspace aut\adddot}},
-  editortranfo     = {{sudarytojas, vertėjas, anotacijų ir pratarmės autorius}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir prat\adddotspace aut\adddot}},
-  editorstranfo    = {{sudarytojai, vertėjai, anotacijų ir pratarmės autoriai}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir prat\adddotspace aut\adddot}},
-  editortranaf     = {{sudarytojas, vertėjas, anotacijų ir pabaigos žodžio autorius}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir pab\adddotspace žodžio aut\adddot}},
-  editorstranaf    = {{sudarytojai, vertėjai, anotacijų ir pabaigos žodžio autoriai}%
-                      {sud\adddot\addcommaspace vert\adddot\addcommaspace anot\adddot ir pab\adddotspace žodžio aut\adddot}},
+  editortranin     = {{sudarytojas, vertėjas, paaiškinimų ir įvado autorius}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir įv\adddotspace aut\adddot}},
+  editorstranin    = {{sudarytojai, vertėjai, paaiškinimų ir įvado autorius}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir įv\adddotspace aut\adddot}},
+  editortranfo     = {{sudarytojas, vertėjas, paaiškinimų ir pratarmės autorius}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir prat\adddotspace aut\adddot}},
+  editorstranfo    = {{sudarytojai, vertėjai, paaiškinimų ir pratarmės autoriai}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir prat\adddotspace aut\adddot}},
+  editortranaf     = {{sudarytojas, vertėjas, paaiškinimų ir pabaigos žodžio autorius}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir pab\adddotspace žodžio aut\adddot}},
+  editorstranaf    = {{sudarytojai, vertėjai, paaiškinimų ir pabaigos žodžio autoriai}%
+                      {sud\adddot\addcommaspace vert\adddot\addcommaspace paaišk\adddot ir pab\adddotspace žodžio aut\adddot}},
   translatorco     = {{vertėjas ir komentarų autorius}%
                       {vert\adddotspace ir koment\adddotspace aut\adddot}},
   translatorsco    = {{vertėjai ir komentarų autoriai}%
                       {vert\adddotspace ir koment\adddotspace aut\adddot}},
-  translatoran     = {{vertėjas ir anotacijų autorius}%
-                      {vert\adddotspace ir anot\adddotspace aut\adddot}},
-  translatorsan    = {{vertėjai ir anotacijų autoriai}%
-                      {vert\adddotspace ir anot\adddotspace aut\adddot}},
+  translatoran     = {{vertėjas ir paaiškinimų autorius}%
+                      {vert\adddotspace ir paaišk\adddotspace aut\adddot}},
+  translatorsan    = {{vertėjai ir paaiškinimų autoriai}%
+                      {vert\adddotspace ir paaišk\adddotspace aut\adddot}},
   translatorin     = {{vertėjas ir įvado autorius}%
                       {vert\adddotspace ir įv\adddotspace aut\adddot}},
   translatorsin    = {{vertėjai ir įvado autoriai}%
@@ -154,18 +170,18 @@
                       {vert\adddot\addcommaspace koment\adddotspace ir pab\adddot žodžio aut\adddot}},
   translatorscoaf  = {{vertėjai, komentarų ir pabaigos žodžio autoriai}%
                       {vert\adddot\addcommaspace koment\adddotspace ir pab\adddot žodžio aut\adddot}},
-  translatoranin   = {{vertėjas, anotacijų ir įvado autorius}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir įv\adddot aut\adddot}},
-  translatorsanin  = {{vertėjai, anotacijų ir įvado autoriai}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir įv\adddot aut\adddot}},
-  translatoranfo   = {{vertėjas, anotacijų ir pratarmės autorius}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir prat\adddot aut\adddot}},
-  translatorsanfo  = {{vertėjai, anotacijų ir pratarmės autoriai}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir prat\adddot aut\adddot}},
-  translatoranaf   = {{vertėjas, anotacijų ir pabaigos žodžio autorius}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir pab\adddot žodžio aut\adddot}},
-  translatorsanaf  = {{vertėjai, anotacijų ir pabaigos žodžio autoriai}%
-                      {vert\adddot\addcommaspace anot\adddotspace ir pab\adddot žodžio aut\adddot}},
+  translatoranin   = {{vertėjas, paaiškinimų ir įvado autorius}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir įv\adddot aut\adddot}},
+  translatorsanin  = {{vertėjai, paaiškinimų ir įvado autoriai}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir įv\adddot aut\adddot}},
+  translatoranfo   = {{vertėjas, paaiškinimų ir pratarmės autorius}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir prat\adddot aut\adddot}},
+  translatorsanfo  = {{vertėjai, paaiškinimų ir pratarmės autoriai}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir prat\adddot aut\adddot}},
+  translatoranaf   = {{vertėjas, paaiškinimų ir pabaigos žodžio autorius}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir pab\adddot žodžio aut\adddot}},
+  translatorsanaf  = {{vertėjai, paaiškinimų ir pabaigos žodžio autoriai}%
+                      {vert\adddot\addcommaspace paaišk\adddotspace ir pab\adddot žodžio aut\adddot}},
   organizer        = {{organizatorius}{org\adddot}},
   organizers       = {{organizatoriai}{org\adddot}},
   byorganizer      = {{organizavo}{org\adddot}},
@@ -180,9 +196,9 @@
   bycollaborator   = {{bendradarbiaujant su}{bendradarb\adddotspace su}},% FIXME: unsure
   bytranslator     = {{\lbx@lfromlang\addspace išvertė}{\lbx@sfromlang\addspace vert\adddot}},
   bycommentator    = {{komentarus parengė}{koment\adddot}},
-  byannotator      = {{anotacijas parengė}{anot\adddot}},
+  byannotator      = {{paaiškinimus parengė}{paaišk\adddot}},
   withcommentator  = {{komentarų autorius}{koment\adddotspace aut\adddot}},
-  withannotator    = {{anotacijų autorius}{anot\adddotspace aut\adddot}},
+  withannotator    = {{paaiškinimų autorius}{paaišk\adddotspace aut\adddot}},
   withintroduction = {{įvado autorius}{įvad\adddotspace aut\adddot}},
   withforeword     = {{pratarmės autorius}{prat\adddotspace aut\adddot}},
   withafterword    = {{pabaigos žodžio autorius}{pab\adddotspace žodžio aut\adddot}},
@@ -190,8 +206,8 @@
                       {sud\adddotspace ir vert\adddotspace \lbx@sfromlang}},
   byeditorco       = {{sudarė ir komentarus parengė}%
                       {sud\adddotspace ir koment\adddot}},
-  byeditoran       = {{sudarė ir anotavo}%
-                      {sud\adddotspace ir anot\adddot}},
+  byeditoran       = {{sudarė ir paaiškinimus parengė}%
+                      {sud\adddotspace ir paaišk\adddot}},
   byeditorin       = {{sudarė ir įvadą parašė}%
                       {sud\adddotspace ir įvad\adddotspace parašė}},
   byeditorfo       = {{sudarė ir pratarmę parašė}%
@@ -200,8 +216,8 @@
                       {sud\adddotspace ir pab\adddotsspace žodį parašė}},
   byeditortrco     = {{sudarė, išvertė \lbx@lfromlang\ ir komentarus parengė}%
                       {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\ ir koment\adddot}},
-  byeditortran     = {{sudarė, išvertė \lbx@lfromlang\ ir anotacijas parengė}%
-                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\ ir anot\adddot}},
+  byeditortran     = {{sudarė, išvertė \lbx@lfromlang\ ir paaiškinimus parengė}%
+                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\ ir paaišk\adddot}},
   byeditortrin     = {{sudarė, išvertė \lbx@lfromlang ir įvadą parašė}%
                       {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\ ir įv\adddot parašė}},
   byeditortrfo     = {{sudarė, išvertė \lbx@lfromlang ir pratarmę parašė}%
@@ -214,28 +230,28 @@
                       {sud\adddot\addcommaspace koment\adddotspace ir prat\adddot parašė}},
   byeditorcoaf     = {{sudarė, komentarus parengė ir pabaigos žodį parašė}%
                       {sud\adddot\addcommaspace koment\adddotspace ir pab\adddot žodį parašė}},
-  byeditoranin     = {{sudarė, anotacijas parengė ir įvadą parašė}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir įv\adddot parašė}},
-  byeditoranfo     = {{sudarė, anotacijas parengė ir pratarmę parašė}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir prat\adddot parašė}},
-  byeditoranaf     = {{sudarė, anotacijas parengė ir pabaigos žodį parašė}%
-                      {sud\adddot\addcommaspace anot\adddotspace ir pab\adddot žodį parašė}},
+  byeditoranin     = {{sudarė, paaiškinimus parengė ir įvadą parašė}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir įv\adddot parašė}},
+  byeditoranfo     = {{sudarė, paaiškinimus parengė ir pratarmę parašė}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir prat\adddot parašė}},
+  byeditoranaf     = {{sudarė, paaiškinimus parengė ir pabaigos žodį parašė}%
+                      {sud\adddot\addcommaspace paaišk\adddotspace ir pab\adddot žodį parašė}},
   byeditortrcoin   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace komentarus parengė, ir įvadą parašė}%
                       {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace koment\adddotspace ir įvad\adddotspace parašė}},
   byeditortrcofo   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace komentarus parengė ir pratarmę parašė}%
                       {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace koment\adddotspace ir prat\adddotspace parašė}},
   byeditortrcoaf   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace komentarus ir pabaigos žodį parašė}%
                       {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace koment\adddotspace ir pab\adddotspace žodį parašė}},
-  byeditortranin   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir įvadą parašė}%
-                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace anot\adddotspace ir pab\adddotspace žodį parašė}},
-  byeditortranfo   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir pratarmę parašė}%
-                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace anot\adddotspace ir prat\adddotspace parašė}},
-  byeditortranaf   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir pabaigos žodį parašė}%
-                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace anot\adddotspace ir pab\adddotspace žodį parašė}},
+  byeditortranin   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir įvadą parašė}%
+                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace paaišk\adddotspace ir pab\adddotspace žodį parašė}},
+  byeditortranfo   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir pratarmę parašė}%
+                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace paaišk\adddotspace ir prat\adddotspace parašė}},
+  byeditortranaf   = {{sudarė, išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir pabaigos žodį parašė}%
+                      {sud\adddot\addcommaspace vert\adddotspace \lbx@sfromlang\addcommaspace paaišk\adddotspace ir pab\adddotspace žodį parašė}},
   bytranslatorco   = {{išvertė \lbx@lfromlang\ ir komentarus parengė}%
                       {vert\adddot\ \lbx@sfromlang\ ir koment\adddot}},
-  bytranslatoran   = {{išvertė \lbx@lfromlang\ ir anotacijas parengė}%
-                      {vert\adddot\ \lbx@sfromlang\ ir anot\adddot}},
+  bytranslatoran   = {{išvertė \lbx@lfromlang\ ir paaiškinimus parengė}%
+                      {vert\adddot\ \lbx@sfromlang\ ir paaišk\adddot}},
   bytranslatorin   = {{išvertė \lbx@lfromlang ir įvadą parašė}%
                       {vertė\ \lbx@sfromlang įv\adddotspace parašė}},
   bytranslatorfo   = {{išvertė \lbx@lfromlang ir pratarmę parašė}%
@@ -248,12 +264,12 @@
                       {vertė\ \lbx@sfromlang\addcommaspace koment\adddotspace ir prat\addcommaspace parašė}},
   bytranslatorcoaf = {{išvertė \lbx@lfromlang\addcommaspace komentarus parengė ir pabaigos žodį parašė}%
                       {vertė\ \lbx@sfromlang\addcommaspace koment\adddotspace ir pab\adddotspace parašė}},
-  bytranslatoranin = {{išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir įvadą parašė}%
-                      {vertė \lbx@sfromlang\addcommaspace anot\adddotspace ir įv\adddotspace parašė}},
-  bytranslatoranfo = {{išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir pratarmę parašė}%
-                      {vertė \lbx@sfromlang\addcommaspace anot\adddotspace ir prat\adddotspace parašė}},
-  bytranslatoranaf = {{išvertė \lbx@lfromlang\addcommaspace anotacijas parengė ir pabaigos žodį parašė}%
-                      {vertė \lbx@sfromlang\addcommaspace anot\adddotspace ir pab\adddotspace žodį parašė}}, %
+  bytranslatoranin = {{išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir įvadą parašė}%
+                      {vertė \lbx@sfromlang\addcommaspace paaišk\adddotspace ir įv\adddotspace parašė}},
+  bytranslatoranfo = {{išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir pratarmę parašė}%
+                      {vertė \lbx@sfromlang\addcommaspace paaišk\adddotspace ir prat\adddotspace parašė}},
+  bytranslatoranaf = {{išvertė \lbx@lfromlang\addcommaspace paaiškinimus parengė ir pabaigos žodį parašė}%
+                      {vertė \lbx@sfromlang\addcommaspace paaišk\adddotspace ir pab\adddotspace žodį parašė}}, %
   and              = {{ir}{ir}},
   andothers        = {{ir kiti}{ir kt\adddot}},
   andmore          = {{ir taip toliau}{ir t\adddotspace t\adddot}},
@@ -349,6 +365,18 @@
   october          = {{spalis}{spal\adddot}},
   november         = {{lapkritis}{lapkr\adddot}},
   december         = {{gruodis}{gruod\adddot}},
+  locjanuary       = {{sausio}{saus\adddot}},
+  locfebruary      = {{vasario}{vas\adddot}},
+  locmarch         = {{kovo}{kov\adddot}},
+  locapril         = {{balandžio}{bal\adddot}},
+  locmay           = {gegužės}{geg\adddot}},
+  locjune          = {birželio}{birž\adddot}},
+  locjuly          = {liepos}{liep\adddot}},
+  locaugust        = {rugpjūčio}{rugpj\adddot}},
+  locseptember     = {rugsėjo}{rugs\adddot}},
+  lococtober       = {spalio}{spal\adddot}},
+  locnovember      = {lapkričio}{lapkr\adddot}},
+  locdecember      = {gruodžio}{gruod\adddot}},
   langamerican     = {{amerikiečių}{amer\adddot}},
   langbrazilian    = {{brazilų}{braz\adddot}},
   langcatalan      = {{katalonų}{katalonų}},
@@ -410,7 +438,18 @@
   file             = {{byla}{b\adddot}},
   library          = {{biblioteka}{bibl\adddot}},
   abstract         = {{santrauka}{santr\adddot}},
-  annotation       = {{anotacija}{anot\adddot}},
+  annotation       = {{paaiškinimas}{paaišk\adddot}},
+  commonera        = {{mūsų era}{m\adddotspace e\adddot}},
+  beforecommonera  = {{prieš mūsų erą}{pr\adddotspace m\adddotspace e\adddot}},
+  annodomini       = {{po Kristaus gimimo}{po\adddotspace Kr\adddot}},
+  beforechrist     = {{prieš Kristaus giminimą}{pr\adddotspace Kr\adddot}},
+  circa            = {{apie}{apie}},
+  spring           = {{pavasaris}{pav\adddot}},
+  summer           = {{vasara}{vas\adddot}},
+  autumn           = {{ruduo}{ruduo}},
+  winter           = {{žiema}{žiema}},
+  am               = {{}{}},
+  pm               = {{}{}},
 }
 
 \endinput
